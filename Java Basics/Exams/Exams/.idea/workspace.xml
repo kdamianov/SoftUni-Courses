@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0afb230a-822a-4bbe-ae38-aec7e7343c56" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="2JpVms3gebs6GpASe0QuqAAhadQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SoftUni Courses\Programming Java\ProgrammingBasicsJava\IdeaProjects\Exams\Exams\src\examPreparation" />
+      <recent name="E:\SoftUni Courses\Programming Java\ProgrammingBasicsJava\IdeaProjects\Exams\Exams\src\preExam9and10April2022" />
+      <recent name="E:\SoftUni Courses\Programming Java\ProgrammingBasicsJava\IdeaProjects\Exams\Exams\src\exam16And17April2022" />
+      <recent name="E:\SoftUni Courses\Programming Java\ProgrammingBasicsJava\IdeaProjects\Exams\Exams\src\exam28And29March2020" />
+      <recent name="E:\SoftUni Courses\Programming Java\ProgrammingBasicsJava\IdeaProjects\Exams\Exams\src\exam18And19July2020" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0afb230a-822a-4bbe-ae38-aec7e7343c56" name="Changes" comment="" />
+      <created>1672775178410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672775178410</updated>
+      <workItem from="1672775179892" duration="1111000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
