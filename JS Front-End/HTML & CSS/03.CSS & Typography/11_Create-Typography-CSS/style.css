@@ -11,35 +11,48 @@ h4,
 h5,
 h6 {
   font-family: Georgia, serif;
+
 }
 
-table {
-  width: 100%;
-  border: 1px solid grey;
-  border-collapse: collapse;
+ul.first{
+  list-style: square;
 }
-th {
+
+ul.second{
+  list-style: disc;
+}
+
+ul.third{
+  list-style: circle;
+}
+
+table{
+  border: 1px solid grey;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead{
   background-color: grey;
 }
 
-thead {
-  background-color: #cccccc;
-  text-align: left;
-}
-tbody td {
+th, td{
+  border: 1px solid grey;
   border-right: 1px solid grey;
 }
-tbody tr {
-  border-bottom: 1px solid grey;
+
+tbody tr:nth-child(odd){
+  background-color: lightgray;
 }
-tbody tr:nth-child(odd) {
-  background-color: #f1f1f1;
-}
-blockquote {
-  border-left: 4px solid rgb(221, 221, 221);
+
+blockquote{
+  border-left: 2px solid rgb(221,221,221);
   font-style: italic;
-  padding: 25px;
+  padding: 20px;
 }
-.author {
+
+.author{
   text-align: right;
 }
+
