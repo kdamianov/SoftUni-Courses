@@ -1,0 +1,40 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  padding: 30px;
+}
+
+header * {
+  display: inline-block;
+}
+
+.header_h1 {
+  text-transform: capitalize;
+}
+
+nav {
+  margin-left: 80px;
+}
+
+a {
+  color: rgb(75, 190, 75);
+  font-size: 14px;
+  margin-left: 30px;
+
+}
+
+hr{
+    border: 1px solid black;
+}
+
+.main_h1 {
+  font-family: "Times New Roman", serif;
+  font-size: x-large;
+  font-weight: 400;
+}
+
+main{
+    font-size: 14px;
+}
