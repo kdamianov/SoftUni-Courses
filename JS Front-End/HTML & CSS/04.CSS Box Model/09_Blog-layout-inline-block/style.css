@@ -1,0 +1,33 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  background-color: rgb(238, 238, 238);
+  color: rgb(51, 51, 51);
+}
+
+article {
+  width: 700px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Times New Roman", sans-serif;
+}
+
+p,
+ul {
+  font-size: small;
+}
+
+img {
+  width: 700px;
+}
+
+aside {
+  float: right;
+  width: 200px;
+}
