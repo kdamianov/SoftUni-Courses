@@ -56,9 +56,9 @@ img {
 
 i {
   color: #fff;
-  position: relative;
+  position: absolute;
   font-size: 15px;
-  bottom: 23px;
+  bottom: 1%;
   left: 93%;
   transform: translate(-50%, -50%);
 }
