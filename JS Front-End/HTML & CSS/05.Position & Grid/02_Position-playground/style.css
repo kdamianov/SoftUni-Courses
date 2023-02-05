@@ -30,6 +30,7 @@ body .viewport__two {
 }
 
 body .viewport__one .card {
+  display: block;
   position: absolute;
   width: 30vw;
   top: 50%;
@@ -37,7 +38,12 @@ body .viewport__one .card {
   transform: translate(-50%, -50%);
 }
 
+.card {
+  
+}
+
 .viewport__two .card {
+  display: block;
   position: absolute;
   width: 30vw;
   height: 45vh;
@@ -57,5 +63,5 @@ i {
   position: relative;
   font-size: 15px;
   bottom: 23px;
-  left: 26%;
+  left: 93%;
 }
