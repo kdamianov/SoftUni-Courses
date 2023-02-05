@@ -38,10 +38,6 @@ body .viewport__one .card {
   transform: translate(-50%, -50%);
 }
 
-.card {
-  
-}
-
 .viewport__two .card {
   display: block;
   position: absolute;
@@ -64,4 +60,5 @@ i {
   font-size: 15px;
   bottom: 23px;
   left: 93%;
+  transform: translate(-50%, -50%);
 }
