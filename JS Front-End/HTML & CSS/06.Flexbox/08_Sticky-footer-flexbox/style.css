@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(238, 238, 238);
+  height: 100vh;
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  border-bottom: 3px solid rgb(102, 102, 102);
+  text-transform: uppercase;
+  font-size: xxx-large;
+  padding: 10px 15px;
+  height: 15%;
+}
+
+hr {
+  margin: 0;
+}
+
+main {
+  height: 80%;
+  padding: 31px 15px;
+}
+
+main > h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+main > p {
+  line-height: 1.5;
+  margin: 11px 0;
+  font-size: 18px;
+}
+
+footer {
+  height: 5%;
+  text-align: left;
+  position: sticky;
+  background-color: rgb(102, 102, 102);
+  color: rgb(255, 255, 255);
+  padding: 15px 15px;
+}
