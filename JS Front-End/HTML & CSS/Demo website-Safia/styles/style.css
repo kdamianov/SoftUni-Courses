@@ -2,6 +2,7 @@
 primary blue color - #0059f7
 login button color - #162044
 card icons color - #7e8bb6
+btn-get started - #689eff
 */
 
 body {
@@ -10,7 +11,8 @@ body {
   color: #fff;
 }
 
-p {
+p,
+i {
   color: rgb(158, 158, 158);
 }
 
@@ -101,10 +103,81 @@ p {
 #hero .partner-logos {
   max-width: 900px;
   margin: 0 auto;
+  padding-bottom: 48px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 8px;
+  border-bottom: 2px solid rgb(158, 158, 158, 0.2);
+}
+
+/* ------------------
+    FEATURES
+------------------ */
+#features {
+  padding: 70px 300px;
+}
+
+#features .title-info {
+  max-width: 300px;
+  margin-right: auto;
+  padding-bottom: 16px;
+}
+
+#features .section-title {
+  font-size: 32px;
+}
+
+#features .features-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 28px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#features .features-cards .card {
+  width: 48%;
+  border: 1px solid rgb(158, 158, 158, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+#features .features-cards .card .description {
+  padding-bottom: 11px;
+}
+
+#features .features-cards .card i {
+  font-size: 35px;
+  padding-bottom: 25px;
+}
+
+#features .start {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0059f7;
+  border-radius: 8px;
+  margin-top: 25px;
+  padding: 60px 0;
+  line-height: 1.5;
+}
+
+#features .start button{
+  border: none;
+  background-color: #689eff;
+  color: #fff;
+  border-radius: 4px;
+  padding: 16px 16px;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+#features .start button i{
+  color: #fff;
 }
 
 /* ------------------
@@ -112,7 +185,6 @@ p {
 ------------------ */
 
 #how {
-    transition: 1500ms;
   padding: 70px 64px;
 }
 
