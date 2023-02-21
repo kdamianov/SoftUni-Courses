@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  background-image: url(images/background.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+  font-weight: 400;
+}
+
+.container {
+  background-image: url(images/form-background.png);
+  background-position: center;
+  background-size: cover;
+  width: 45%;
+  height: 60%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 14px 14px 15px 0px #888888;
+}
+
+h1 {
+  width: 45%;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+}
+
+input {
+  border: 1px solid #cccccc;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+button {
+  background-color: #ae3c33;
+  color: white;
+  width: 100px;
+  border-radius: 15px;
+  border: none;
+  padding: 2% 5%;
+  align-self: center;
+  margin-top: 10px;
+}
+
+.field {
+  margin: 2% 0;
+}
+
+.double-field,
+.single-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.check,
+.submit {
+  margin: 2%;
+}
+
+.double-field {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.double-field > .single-field {
+  flex-basis: 48%;
+}
