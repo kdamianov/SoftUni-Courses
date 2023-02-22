@@ -10,6 +10,3 @@ function solve(text, search) {
     console.log(counter);
 }
 
-solve('softuni is great place for learning new programming languages',
-'softuni'
-);
