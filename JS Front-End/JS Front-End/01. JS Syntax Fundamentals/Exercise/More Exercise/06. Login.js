@@ -12,8 +12,6 @@ function solve(inputArr) {
             console.log(`User ${username} blocked!`);
         } else {
             console.log('Incorrect password. Try again.');
-
         }
     }
 }
-solve(['sunny','rainy','cloudy','sunny','not sunny']);
