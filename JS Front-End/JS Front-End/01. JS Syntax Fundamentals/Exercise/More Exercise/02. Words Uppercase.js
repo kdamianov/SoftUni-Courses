@@ -11,5 +11,3 @@ function solve(text) {
 
     console.log(newArr.join(', '));
 }
-
-solve('Hi, how are you?');
