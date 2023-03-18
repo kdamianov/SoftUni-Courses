@@ -9,8 +9,6 @@ function solve() {
    const output = document.getElementsByTagName('textarea')[0];
 
    function onClick(e){
-      //само ако click в/у бутон 'Add', тк има и друг бутон!
-
       if (e.target.tagName == "BUTTON" && e.target.classList.contains('add-product')) {
          const product = e.target.parentNode.parentNode;
          const productName = product.querySelector('.product-title').textContent;
