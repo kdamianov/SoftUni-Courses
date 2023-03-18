@@ -12,3 +12,19 @@ function extract(content) {
 
     return wordsArr.join("; ")
 }
+
+// Alternative:
+
+// function extract(content) {
+//     const text = document.getElementById(content).textContent;
+
+//     let pattern = /\(([^)]+)\)/g;
+//     let result = text.matchAll(pattern);
+//     let wordsArr = [];
+
+//     for (const word of result) {
+//         wordsArr.push(word[1]);
+//     }
+
+//     return wordsArr.join("; ")
+// }
