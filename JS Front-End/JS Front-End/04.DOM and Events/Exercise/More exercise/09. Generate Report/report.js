@@ -17,9 +17,7 @@ function generateReport() {
         let info = {};
         let infoRows = c.children;
 
-        for (let line of checkedHeaders) {
-            info[line[1]] = infoRows[line[0]].textContent;
-        }
+        checkedHeaders.forEach(ch => info[line[1]] = infoRows[line[0]].textContent);
         infoArr.push(info);
     });
 
