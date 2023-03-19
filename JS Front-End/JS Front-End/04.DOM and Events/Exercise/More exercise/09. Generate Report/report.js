@@ -12,19 +12,16 @@ function generateReport() {
             checkedHeaders.push([i, checkedBox.name]);
         }
     }
-    
-    for (let column of columns) {
+
+    columns.forEach(c => {
         let info = {};
-        let infoRows = column.children;
+        let infoRows = c.children;
 
         for (let line of checkedHeaders) {
             info[line[1]] = infoRows[line[0]].textContent;
         }
         infoArr.push(info);
-    }
+    });
 
     outputArea.value = JSON.stringify(infoArr);
-
-    
-
 }
