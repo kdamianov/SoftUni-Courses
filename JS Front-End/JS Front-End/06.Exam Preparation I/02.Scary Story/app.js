@@ -34,7 +34,7 @@ function solve() {
     let title = document.createElement('p');
     title.textContent = `Title: ${storyTitleEl.value}`;
     let genre = document.createElement('p');
-    genre.textContent = `Genre ${genreEl.value}`;
+    genre.textContent = `Genre: ${genreEl.value}`;
     let storyContent = document.createElement('p');
     storyContent.textContent = `${storyEl.value}`;
 
