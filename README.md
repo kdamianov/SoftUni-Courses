@@ -1,2 +1,2 @@
 # SoftUni-Courses
- All courses @ SoftUni
+ All modules from SoftUni Software Engineering Programme with "Java"
