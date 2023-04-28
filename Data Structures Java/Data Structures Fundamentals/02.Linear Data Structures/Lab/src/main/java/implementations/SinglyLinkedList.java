@@ -12,7 +12,7 @@ public class SinglyLinkedList<E> implements LinkedList<E> {
         private E value;
         private Node<E> next;
 
-        public Node(E element) {
+        private Node(E element) {
             this.value = element;
             this.next = null;
         }
@@ -29,7 +29,7 @@ public class SinglyLinkedList<E> implements LinkedList<E> {
         nextElement.next = this.head;
         this.head = nextElement;
 
-        this.size++;
+        size++;
     }
 
     @Override
@@ -46,6 +46,18 @@ public class SinglyLinkedList<E> implements LinkedList<E> {
             current.next = last;
         }
         this.size++;
+//        Node<E> last = new Node<>(element);
+//
+//        if (isEmpty()) {
+//            this.head = last;
+//        } else {
+//            Node<E> current = this.head;
+//            while (current.next != null) {
+//                current = current.next;
+//            }
+//            current.next = last;
+//        }
+//        this.size++;
     }
 
     @Override
@@ -54,9 +66,16 @@ public class SinglyLinkedList<E> implements LinkedList<E> {
 
         E value = this.head.value;
         this.head = this.head.next;
-        this.size--;
+        size--;
 
         return value;
+//        ensureNonEmpty();
+//
+//        E value = this.head.value;
+//        this.head = this.head.next;
+//        this.size--;
+//
+//        return value;
     }
 
     @Override
@@ -114,6 +133,7 @@ public class SinglyLinkedList<E> implements LinkedList<E> {
     public Iterator<E> iterator() {
         return new Iterator<E>() {
             private Node<E> current = head;
+
             @Override
             public boolean hasNext() {
                 return current != null;
