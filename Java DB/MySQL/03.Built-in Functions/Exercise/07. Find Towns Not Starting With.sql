@@ -14,6 +14,10 @@ WHERE
     LEFT(`name`, 1) NOT IN ('R' , 'B', 'D')
 ORDER BY `name`;
 
-
-
-
+SELECT 
+    town_id, `name`
+FROM
+    towns
+WHERE
+    name REGEXP '^[^RrBbDd]'
+ORDER BY `name`;
