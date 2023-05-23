@@ -1,15 +1,15 @@
 SELECT 
-    department_id AS 'd_id',
+    department_id,
     (SELECT DISTINCT
             `salary`
         FROM
-            `employees`
+            `employees` AS e
         WHERE
-            department_id = `d_id`
+            e.department_id = `employees`.department_id -- текущото ID да съвпада с първоначлано избраното ID
         ORDER BY `salary` DESC
         LIMIT 2 , 1) AS `third_highest_salary`
 FROM
     employees
-GROUP BY d_id
+GROUP BY department_id
 HAVING `third_highest_salary` IS NOT NULL
-ORDER BY d_id;
+ORDER BY department_id;
