@@ -9,4 +9,5 @@ FROM
 WHERE
     c.country_code IN ('RU' , 'US', 'BG')
 GROUP BY country_code
+-- HAVING c.country_code IN ('RU' , 'US', 'BG')
 ORDER BY mountain_range DESC;

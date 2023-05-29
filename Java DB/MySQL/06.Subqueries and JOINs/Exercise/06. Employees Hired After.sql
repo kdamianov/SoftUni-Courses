@@ -8,6 +8,6 @@ FROM
         LEFT JOIN
     departments AS d ON e.department_id = d.department_id
 WHERE
-    e.hire_date > DATE('1999-01-01')
+    e.hire_date > DATE('1999-01-01') -- Може и само '1999-01-01'
         AND d.name IN ('Sales' , 'Finance')
 ORDER BY e.hire_date; 

@@ -4,5 +4,5 @@ FROM
     employees AS e
         JOIN
     addresses AS a ON e.address_id = a.address_id
-ORDER BY a.address_id
-LIMIT 5;
+ORDER BY a.address_id -- Може и  e.address_id, тк са =
+LIMIT 5; 
