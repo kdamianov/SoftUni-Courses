@@ -18,12 +18,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2R9qPpGUw6qF336VbTWxY9qDsbB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,10 +42,11 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DiabloDemo">
+  <component name="RunManager" selected="Application.QueryResults">
     <configuration name="DiabloDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DiabloDemo" />
       <module name="ORMIntro" />
@@ -61,8 +63,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DiabloDemo" />
         <item itemvalue="Application.QueryResults" />
+        <item itemvalue="Application.DiabloDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -74,11 +76,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686672636305</updated>
-      <workItem from="1686672636408" duration="6040000" />
+      <workItem from="1686672636408" duration="6148000" />
+      <workItem from="1686770401713" duration="94000" />
+      <workItem from="1686770792391" duration="500000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../../../.." />
+    </ignored-roots>
   </component>
 </project>
