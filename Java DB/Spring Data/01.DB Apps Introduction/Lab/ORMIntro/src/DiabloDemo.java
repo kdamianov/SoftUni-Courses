@@ -48,13 +48,13 @@ public class DiabloDemo {
     private static Connection getMySQLConnection() throws SQLException {
 //        Properties userPass = new Properties();
 //        userPass.setProperty("user", "root");
-//        userPass.setProperty("password", "0000");
+//        userPass.setProperty("password", "****");
 
 //        Connection connection = DriverManager.getConnection(
 //                "jdbc:mysql://localhost:3306/diablo", userPass);
 
         Connection connection = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/diablo", "root", "0000");
+                "jdbc:mysql://localhost:3306/diablo", "root", "****");
         return connection;
     }
 }
