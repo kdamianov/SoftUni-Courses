@@ -2,24 +2,36 @@ package bg.softuni.automappingobjectsexercise.model.entities;
 
 import jakarta.persistence.*;
 
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity
 @Table(name = "users")
-public class User extends BaseEntity{
+public class User extends BaseEntity {
     @Column
     private String email;
     @Column(nullable = false)
     private String password;
     @Column(name = "full_name")
     private String fullName;
+    @Column(name = "is_admin", nullable = false)
+    private Boolean isAdmin;
     @Column
     @ManyToMany(fetch = FetchType.EAGER)
     private Set<Game> games;
-    @Column(name = "is_admin", nullable = false)
-    private Boolean isAdmin;
+    @OneToMany(targetEntity = Order.class, mappedBy = "buyer")
+    private Set<Order> orders;
 
     public User() {
+        this.games = new HashSet<>();
+        this.orders = new HashSet<>();
+    }
+
+    public User(String email, String password, String fullName) {
+        this();
+        this.email = email;
+        this.password = password;
+        this.fullName = fullName;
     }
 
     public String getEmail() {
@@ -54,11 +66,19 @@ public class User extends BaseEntity{
         this.games = games;
     }
 
-    public Boolean isAdministrator() {
+    public Boolean getAdmin() {
         return isAdmin;
     }
 
-    public void setAdministrator(Boolean administrator) {
-        isAdmin = administrator;
+    public void setAdmin(Boolean admin) {
+        isAdmin = admin;
+    }
+
+    public Set<Order> getOrders() {
+        return orders;
+    }
+
+    public void setOrders(Set<Order> orders) {
+        this.orders = orders;
     }
 }

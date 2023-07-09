@@ -1,5 +1,7 @@
 package bg.softuni.automappingobjectsexercise.service.impl;
 
+import bg.softuni.automappingobjectsexercise.model.dto.GameDetailDto;
+import bg.softuni.automappingobjectsexercise.model.dto.GamesAllDto;
 import bg.softuni.automappingobjectsexercise.model.dto.GameAddDto;
 import bg.softuni.automappingobjectsexercise.model.entities.Game;
 import bg.softuni.automappingobjectsexercise.repository.GameRepository;
@@ -13,6 +15,7 @@ import org.springframework.stereotype.Service;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.List;
 import java.util.Set;
 
 @Service
@@ -78,5 +81,25 @@ public class GameServiceImpl implements GameService {
 
         System.out.printf("Deleted %s%n", game.getTitle());
         gameRepository.delete(game); //изтрива дадените данни
+    }
+
+    @Override
+    public List<GamesAllDto> printAllGames() {
+        return gameRepository.findAll()
+                .stream()
+                .map(game -> mapper.map(game, GamesAllDto.class))
+                .toList();
+    }
+
+    @Override
+    public GameDetailDto printGameDetails(String title) {
+        Game game = gameRepository.findGameByTitle(title);
+        GameDetailDto gameDetailDto = null;
+
+        if (game != null) {
+            gameDetailDto = mapper.map(game, GameDetailDto.class);
+        }
+
+        return gameDetailDto;
     }
 }
