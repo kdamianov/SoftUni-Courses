@@ -1,0 +1,302 @@
+[
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Insignia",
+      "TravelledDistance": 9223372036854775807
+    },
+    "Discount": 0.2,
+    "price": 1205.32,
+    "priceWithDiscount": 964.2560
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Torino",
+      "TravelledDistance": 21474647
+    },
+    "Discount": 0.2,
+    "price": 189.92,
+    "priceWithDiscount": 151.9360
+  },
+  {
+    "car": {
+      "Make": "BMW",
+      "Model": "M6 E63",
+      "TravelledDistance": 2147
+    },
+    "Discount": 0.15,
+    "price": 246.97,
+    "priceWithDiscount": 209.9245
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "370Z",
+      "TravelledDistance": 21477
+    },
+    "Discount": 0.35,
+    "price": 2533.88,
+    "priceWithDiscount": 1647.0220
+  },
+  {
+    "car": {
+      "Make": "Dacia",
+      "Model": "Logan",
+      "TravelledDistance": 9275807
+    },
+    "Discount": 0.2,
+    "price": 306.96,
+    "priceWithDiscount": 245.5680
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Pinto",
+      "TravelledDistance": 922337807
+    },
+    "Discount": 0.1,
+    "price": 687.90,
+    "priceWithDiscount": 619.1100
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Tacoma",
+      "TravelledDistance": 21474647
+    },
+    "Discount": 0.45,
+    "price": 446.97,
+    "priceWithDiscount": 245.8335
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "Panda 4x4",
+      "TravelledDistance": 92233736854775807
+    },
+    "Discount": 0.2,
+    "price": 90.97,
+    "priceWithDiscount": 72.7760
+  },
+  {
+    "car": {
+      "Make": "Chevy",
+      "Model": "Camaro",
+      "TravelledDistance": 2147483647
+    },
+    "Discount": 0.0,
+    "price": 328.63,
+    "priceWithDiscount": 328.6300
+  },
+  {
+    "car": {
+      "Make": "Skoda",
+      "Model": "Rapid",
+      "TravelledDistance": 9223372775807
+    },
+    "Discount": 0.45,
+    "price": 2125.97,
+    "priceWithDiscount": 1169.2835
+  },
+  {
+    "car": {
+      "Make": "Fiat",
+      "Model": "Freemont",
+      "TravelledDistance": 92233685477
+    },
+    "Discount": 0.25,
+    "price": 295.46,
+    "priceWithDiscount": 221.5950
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Yaris",
+      "TravelledDistance": 9207
+    },
+    "Discount": 0.45,
+    "price": 412.97,
+    "priceWithDiscount": 227.1335
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Fiesta",
+      "TravelledDistance": 922337775807
+    },
+    "Discount": 0.2,
+    "price": 1088.91,
+    "priceWithDiscount": 871.1280
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Prius",
+      "TravelledDistance": 9223354775807
+    },
+    "Discount": 0.3,
+    "price": 427.90,
+    "priceWithDiscount": 299.5300
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "405",
+      "TravelledDistance": 92036854775807
+    },
+    "Discount": 0.2,
+    "price": 4022.96,
+    "priceWithDiscount": 3218.3680
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "370Z",
+      "TravelledDistance": 922337205807
+    },
+    "Discount": 0.2,
+    "price": 988.21,
+    "priceWithDiscount": 790.5680
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Camry Hybrid",
+      "TravelledDistance": 2143647
+    },
+    "Discount": 0.05,
+    "price": 372.53,
+    "priceWithDiscount": 353.9035
+  },
+  {
+    "car": {
+      "Make": "Great Wall",
+      "Model": "Haval M4",
+      "TravelledDistance": 213647
+    },
+    "Discount": 0.1,
+    "price": 567.51,
+    "priceWithDiscount": 510.7590
+  },
+  {
+    "car": {
+      "Make": "Nissan",
+      "Model": "Altima",
+      "TravelledDistance": 213647
+    },
+    "Discount": 0.4,
+    "price": 2302.97,
+    "priceWithDiscount": 1381.7820
+  },
+  {
+    "car": {
+      "Make": "Seat",
+      "Model": "Toledo",
+      "TravelledDistance": 21483647
+    },
+    "Discount": 0.25,
+    "price": 276.96,
+    "priceWithDiscount": 207.7200
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Omega",
+      "TravelledDistance": 2147483647
+    },
+    "Discount": 0.1,
+    "price": 4900.96,
+    "priceWithDiscount": 4410.8640
+  },
+  {
+    "car": {
+      "Make": "Alfa Romeo",
+      "Model": "Giulietta",
+      "TravelledDistance": 2036854775807
+    },
+    "Discount": 0.35,
+    "price": 2700.62,
+    "priceWithDiscount": 1755.4030
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C1",
+      "TravelledDistance": 2483647
+    },
+    "Discount": 0.0,
+    "price": 442.97,
+    "priceWithDiscount": 442.9700
+  },
+  {
+    "car": {
+      "Make": "Opel",
+      "Model": "Vectra",
+      "TravelledDistance": 9223372854775807
+    },
+    "Discount": 0.25,
+    "price": 4502.32,
+    "priceWithDiscount": 3376.7400
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "308",
+      "TravelledDistance": 2147483647
+    },
+    "Discount": 0.05,
+    "price": 663.26,
+    "priceWithDiscount": 630.0970
+  },
+  {
+    "car": {
+      "Make": "Ford",
+      "Model": "Pinto",
+      "TravelledDistance": 214647
+    },
+    "Discount": 0.0,
+    "price": 1440.96,
+    "priceWithDiscount": 1440.9600
+  },
+  {
+    "car": {
+      "Make": "Citroen",
+      "Model": "C4",
+      "TravelledDistance": 213647
+    },
+    "Discount": 0.1,
+    "price": 241.96,
+    "priceWithDiscount": 217.7640
+  },
+  {
+    "car": {
+      "Make": "Toyota",
+      "Model": "Tacoma",
+      "TravelledDistance": 2147
+    },
+    "Discount": 0.15,
+    "price": 3142.97,
+    "priceWithDiscount": 2671.5245
+  },
+  {
+    "car": {
+      "Make": "Ferrari",
+      "Model": "F40",
+      "TravelledDistance": 214647
+    },
+    "Discount": 0.1,
+    "price": 2557.31,
+    "priceWithDiscount": 2301.5790
+  },
+  {
+    "car": {
+      "Make": "Peugeot",
+      "Model": "405",
+      "TravelledDistance": 92036854775807
+    },
+    "Discount": 0.25,
+    "price": 4022.96,
+    "priceWithDiscount": 3017.2200
+  }
+]
