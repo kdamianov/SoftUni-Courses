@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sales>
+    <sale>
+        <car make="Citroen" model="Berlingo" travelled-distance="922354775807"/>
+        <discount>0.45</discount>
+        <price>4738.71</price>
+        <price-with-discount>2606.2905</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Seat" model="Toledo" travelled-distance="21473647"/>
+        <discount>0.2</discount>
+        <price>4135.17</price>
+        <price-with-discount>3308.1360</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Opel" model="Insignia" travelled-distance="9223372036854775807"/>
+        <discount>0.45</discount>
+        <price>4910.72</price>
+        <price-with-discount>2700.8960</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Citroen" model="C5" travelled-distance="922334775807"/>
+        <discount>0.2</discount>
+        <price>4913.16</price>
+        <price-with-discount>3930.5280</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Citroen" model="C3" travelled-distance="9223336854775807"/>
+        <discount>0.45</discount>
+        <price>1189.53</price>
+        <price-with-discount>654.2415</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Chevy" model="Malibu" travelled-distance="92233854775807"/>
+        <discount>0.45</discount>
+        <price>2839.83</price>
+        <price-with-discount>1561.9065</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Ferrari" model="275" travelled-distance="214647"/>
+        <discount>0.15</discount>
+        <price>3316.20</price>
+        <price-with-discount>2818.7700</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Seat" model="Toledo" travelled-distance="2147647"/>
+        <discount>0.05</discount>
+        <price>2412.46</price>
+        <price-with-discount>2291.8370</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Nissan" model="Rogue" travelled-distance="214647"/>
+        <discount>0.4</discount>
+        <price>1114.00</price>
+        <price-with-discount>668.4000</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Alfa Romeo" model="AR51" travelled-distance="922337275807"/>
+        <discount>0.1</discount>
+        <price>5353.18</price>
+        <price-with-discount>4817.8620</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Peugeot" model="306" travelled-distance="2147483647"/>
+        <discount>0.45</discount>
+        <price>7451.85</price>
+        <price-with-discount>4098.5175</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Great Wall" model="Haval H6" travelled-distance="214747"/>
+        <discount>0.05</discount>
+        <price>4746.02</price>
+        <price-with-discount>4508.7190</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Opel" model="Omega" travelled-distance="2147483647"/>
+        <discount>0.1</discount>
+        <price>2726.61</price>
+        <price-with-discount>2453.9490</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Mercedes" model="W204" travelled-distance="9285807"/>
+        <discount>0.15</discount>
+        <price>2824.88</price>
+        <price-with-discount>2401.1480</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Nissan" model="Versa" travelled-distance="922775807"/>
+        <discount>0.25</discount>
+        <price>3825.58</price>
+        <price-with-discount>2869.1850</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Renault" model="Alaskan" travelled-distance="2147483647"/>
+        <discount>0.45</discount>
+        <price>2525.79</price>
+        <price-with-discount>1389.1845</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Toyota" model="Camry Hybrid" travelled-distance="92275807"/>
+        <discount>0.05</discount>
+        <price>5928.83</price>
+        <price-with-discount>5632.3885</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Mercedes" model="W124" travelled-distance="922336854775807"/>
+        <discount>0.05</discount>
+        <price>1701.25</price>
+        <price-with-discount>1616.1875</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Citroen" model="C4" travelled-distance="92236854775807"/>
+        <discount>0.15</discount>
+        <price>2097.10</price>
+        <price-with-discount>1782.5350</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Skoda" model="Citigo" travelled-distance="214747"/>
+        <discount>0.0</discount>
+        <price>5804.19</price>
+        <price-with-discount>5804.1900</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Chevy" model="Caprice" travelled-distance="2147647"/>
+        <discount>0.05</discount>
+        <price>5421.27</price>
+        <price-with-discount>5150.2065</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Ford" model="Taurus" travelled-distance="9223375807"/>
+        <discount>0.05</discount>
+        <price>4095.60</price>
+        <price-with-discount>3890.8200</price-with-discount>
+    </sale>
+    <sale>
+        <car make="BMW" model="M5 F10" travelled-distance="27483647"/>
+        <discount>0.0</discount>
+        <price>2964.09</price>
+        <price-with-discount>2964.0900</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Chevy" model="Matiz" travelled-distance="922337203685807"/>
+        <discount>0.15</discount>
+        <price>2368.24</price>
+        <price-with-discount>2013.0040</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Opel" model="Astra" travelled-distance="922337203685807"/>
+        <discount>0.45</discount>
+        <price>1714.42</price>
+        <price-with-discount>942.9310</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Mercedes" model="W212" travelled-distance="927254775807"/>
+        <discount>0.05</discount>
+        <price>9657.91</price>
+        <price-with-discount>9175.0145</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Ford" model="Fiesta" travelled-distance="214647"/>
+        <discount>0.05</discount>
+        <price>4343.78</price>
+        <price-with-discount>4126.5910</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Citroen" model="C1" travelled-distance="922336854775807"/>
+        <discount>0.35</discount>
+        <price>2564.08</price>
+        <price-with-discount>1666.6520</price-with-discount>
+    </sale>
+    <sale>
+        <car make="Rolls-Royce" model="Phantom" travelled-distance="922337254775807"/>
+        <discount>0.1</discount>
+        <price>4509.37</price>
+        <price-with-discount>4058.4330</price-with-discount>
+    </sale>
+    <sale>
+        <car make="BMW" model="F20" travelled-distance="83647"/>
+        <discount>0.1</discount>
+        <price>4275.72</price>
+        <price-with-discount>3848.1480</price-with-discount>
+    </sale>
+</sales>
