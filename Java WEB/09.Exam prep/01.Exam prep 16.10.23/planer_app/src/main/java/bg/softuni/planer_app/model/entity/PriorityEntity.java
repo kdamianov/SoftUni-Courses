@@ -46,10 +46,9 @@ public class PriorityEntity extends BaseEntity{
         return name;
     }
 
-    public PriorityEntity setName(PriorityNameEnum name) {
+    public void setName(PriorityNameEnum name) {
         this.name = name;
         setDescription(name); //the custom setter!
-        return this;
     }
 
     public String getDescription() {

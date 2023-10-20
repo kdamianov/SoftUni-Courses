@@ -7,6 +7,7 @@ import javax.persistence.Table;
 import javax.validation.constraints.Future;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Positive;
+import javax.validation.constraints.Size;
 import java.time.LocalDate;
 
 @Entity
@@ -23,10 +24,10 @@ public class TaskEntity extends BaseEntity {
     //      One task has one user, but one user may have many tasks.
 
     @Column(nullable = false)
+    @Size(min = 2, max = 50)
     private String description;
 
     @Column(nullable = false)
-    @Positive
     @Future
     private LocalDate dueDate;
 

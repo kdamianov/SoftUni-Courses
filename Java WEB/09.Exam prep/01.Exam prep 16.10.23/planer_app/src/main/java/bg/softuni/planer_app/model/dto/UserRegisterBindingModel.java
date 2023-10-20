@@ -23,6 +23,8 @@ public class UserRegisterBindingModel {
     private String password;
     private String confirmPassword;
 
+    public UserRegisterBindingModel() {
+    }
 
     public String getUsername() {
         return username;
