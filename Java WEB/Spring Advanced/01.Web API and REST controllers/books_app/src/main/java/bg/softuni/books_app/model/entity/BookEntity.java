@@ -19,23 +19,26 @@ public class BookEntity extends BaseEntity{
         return title;
     }
 
-    public void setTitle(String title) {
+    public BookEntity setTitle(String title) {
         this.title = title;
+        return this;
     }
 
     public String getIsbn() {
         return isbn;
     }
 
-    public void setIsbn(String isbn) {
+    public BookEntity setIsbn(String isbn) {
         this.isbn = isbn;
+        return this;
     }
 
     public AuthorEntity getAuthor() {
         return author;
     }
 
-    public void setAuthor(AuthorEntity author) {
+    public BookEntity setAuthor(AuthorEntity author) {
         this.author = author;
+        return this;
     }
 }

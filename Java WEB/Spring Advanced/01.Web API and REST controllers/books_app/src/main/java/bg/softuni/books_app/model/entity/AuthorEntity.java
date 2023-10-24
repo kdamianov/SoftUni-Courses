@@ -18,15 +18,17 @@ public class AuthorEntity extends BaseEntity {
         return name;
     }
 
-    public void setName(String name) {
+    public AuthorEntity setName(String name) {
         this.name = name;
+        return this;
     }
 
     public List<BookEntity> getBooks() {
         return books;
     }
 
-    public void setBooks(List<BookEntity> books) {
+    public AuthorEntity setBooks(List<BookEntity> books) {
         this.books = books;
+        return this;
     }
 }
